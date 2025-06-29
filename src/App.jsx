@@ -1,12 +1,11 @@
 import "./App.css";
-import { containers } from "./data/containers";
-import { packages } from "./data/packages";
+
+import ContainerList from "./components/ContainerList";
 function App() {
-  console.log("Containers", containers);
-  console.log("Packages", packages);
   return (
     <div>
       <h1>Container Tracker Prototype</h1>
+      <ContainerList />
     </div>
   );
 }
